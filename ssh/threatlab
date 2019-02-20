@@ -1,0 +1,3 @@
+Host *.threatlab.ash1.cynet
+    hostname *.threatlab.ash1.cynet
+    user sjohannsson

@@ -1,0 +1,621 @@
+# mtlbackendingest
+
+Host c3mtlbackendingest01.amadis.com mtlbackendingest01 
+ hostname c3mtlbackendingest01.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendingest02.amadis.com mtlbackendingest02 
+ hostname c3mtlbackendingest02.amadis.com
+ user sjohannsson
+
+# sandboxstatsclient
+
+Host c3sandboxstatsclient01.amadis.com sandboxstatsclient01 
+ hostname c3sandboxstatsclient01.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsclient02.amadis.com sandboxstatsclient02 
+ hostname c3sandboxstatsclient02.amadis.com
+ user sjohannsson
+
+# blowfishmaster
+
+Host c3blowfishmaster01.amadis.com blowfishmaster01 
+ hostname c3blowfishmaster01.amadis.com
+ user sjohannsson
+
+Host c3blowfishmaster02.amadis.com blowfishmaster02 
+ hostname c3blowfishmaster02.amadis.com
+ user sjohannsson
+
+Host c3blowfishmaster03.amadis.com blowfishmaster03 
+ hostname c3blowfishmaster03.amadis.com
+ user sjohannsson
+
+# botnetstatsnode
+
+Host c3botnetstatsnode01.amadis.com botnetstatsnode01 
+ hostname c3botnetstatsnode01.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsnode02.amadis.com botnetstatsnode02 
+ hostname c3botnetstatsnode02.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsnode03.amadis.com botnetstatsnode03 
+ hostname c3botnetstatsnode03.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsnode04.amadis.com botnetstatsnode04 
+ hostname c3botnetstatsnode04.amadis.com
+ user sjohannsson
+
+# sandboxstatsingest
+
+Host c3sandboxstatsingest01.amadis.com sandboxstatsingest01 
+ hostname c3sandboxstatsingest01.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsingest02.amadis.com sandboxstatsingest02 
+ hostname c3sandboxstatsingest02.amadis.com
+ user sjohannsson
+
+# sandboxstatsmaster
+
+Host c3sandboxstatsmaster01.amadis.com sandboxstatsmaster01 
+ hostname c3sandboxstatsmaster01.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsmaster02.amadis.com sandboxstatsmaster02 
+ hostname c3sandboxstatsmaster02.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsmaster03.amadis.com sandboxstatsmaster03 
+ hostname c3sandboxstatsmaster03.amadis.com
+ user sjohannsson
+
+# blowfishingest
+
+Host c3blowfishingest01.amadis.com blowfishingest01 
+ hostname c3blowfishingest01.amadis.com
+ user sjohannsson
+
+Host c3blowfishingest02.amadis.com blowfishingest02 
+ hostname c3blowfishingest02.amadis.com
+ user sjohannsson
+
+# logstoreclient
+
+Host c3logstoreclient01.amadis.com logstoreclient01 
+ hostname c3logstoreclient01.amadis.com
+ user sjohannsson
+
+Host c3logstoreclient02.amadis.com logstoreclient02 
+ hostname c3logstoreclient02.amadis.com
+ user sjohannsson
+
+# logstoreingest
+
+Host c3logstoreingest01.amadis.com logstoreingest01 
+ hostname c3logstoreingest01.amadis.com
+ user sjohannsson
+
+Host c3logstoreingest02.amadis.com logstoreingest02 
+ hostname c3logstoreingest02.amadis.com
+ user sjohannsson
+
+# statsingest
+
+Host c3statsingest01.amadis.com statsingest01 
+ hostname c3statsingest01.amadis.com
+ user sjohannsson
+
+Host c3statsingest02.amadis.com statsingest02 
+ hostname c3statsingest02.amadis.com
+ user sjohannsson
+
+# statsclient
+
+Host c3statsclient01.amadis.com statsclient01 
+ hostname c3statsclient01.amadis.com
+ user sjohannsson
+
+Host c3statsclient02.amadis.com statsclient02 
+ hostname c3statsclient02.amadis.com
+ user sjohannsson
+
+# ber1cuckoonode
+
+Host production-av-elastic-cuckoo-ber1-001.ber1.cynet ber1cuckoonode001 
+ hostname production-av-elastic-cuckoo-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-cuckoo-ber1-002.ber1.cynet ber1cuckoonode002 
+ hostname production-av-elastic-cuckoo-ber1-002.ber1.cynet
+ user sjohannsson
+
+# ber1dataingest
+
+Host production-av-elastic-data-ingest-ber1-001.ber1.cynet ber1dataingest001 
+ hostname production-av-elastic-data-ingest-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-ingest-ber1-002.ber1.cynet ber1dataingest002 
+ hostname production-av-elastic-data-ingest-ber1-002.ber1.cynet
+ user sjohannsson
+
+# ber1datanode
+
+Host production-av-elastic-data-node-ber1-001.ber1.cynet ber1datanode001 
+ hostname production-av-elastic-data-node-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-002.ber1.cynet ber1datanode002 
+ hostname production-av-elastic-data-node-ber1-002.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-003.ber1.cynet ber1datanode003 
+ hostname production-av-elastic-data-node-ber1-003.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-004.ber1.cynet ber1datanode004 
+ hostname production-av-elastic-data-node-ber1-004.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-005.ber1.cynet ber1datanode005 
+ hostname production-av-elastic-data-node-ber1-005.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-006.ber1.cynet ber1datanode006 
+ hostname production-av-elastic-data-node-ber1-006.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-007.ber1.cynet ber1datanode007 
+ hostname production-av-elastic-data-node-ber1-007.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-008.ber1.cynet ber1datanode008 
+ hostname production-av-elastic-data-node-ber1-008.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-009.ber1.cynet ber1datanode009 
+ hostname production-av-elastic-data-node-ber1-009.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-node-ber1-010.ber1.cynet ber1datanode010 
+ hostname production-av-elastic-data-node-ber1-010.ber1.cynet
+ user sjohannsson
+
+# mtlbackendclient
+
+Host c3mtlbackendclient01.amadis.com mtlbackendclient01 
+ hostname c3mtlbackendclient01.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendclient02.amadis.com mtlbackendclient02 
+ hostname c3mtlbackendclient02.amadis.com
+ user sjohannsson
+
+# ber1datamaster
+
+Host production-av-elastic-data-master-ber1-001.ber1.cynet ber1datamaster001 
+ hostname production-av-elastic-data-master-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-master-ber1-002.ber1.cynet ber1datamaster002 
+ hostname production-av-elastic-data-master-ber1-002.ber1.cynet
+ user sjohannsson
+
+# nurserystatsclient
+
+Host c3nurserystatsclient01.amadis.com nurserystatsclient01 
+ hostname c3nurserystatsclient01.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsclient02.amadis.com nurserystatsclient02 
+ hostname c3nurserystatsclient02.amadis.com
+ user sjohannsson
+
+# blowfishclient
+
+Host c3blowfishclient01.amadis.com blowfishclient01 
+ hostname c3blowfishclient01.amadis.com
+ user sjohannsson
+
+Host c3blowfishclient02.amadis.com blowfishclient02 
+ hostname c3blowfishclient02.amadis.com
+ user sjohannsson
+
+# blowfishnode
+
+Host c3blowfishnode01.amadis.com blowfishnode01 
+ hostname c3blowfishnode01.amadis.com
+ user sjohannsson
+
+Host c3blowfishnode02.amadis.com blowfishnode02 
+ hostname c3blowfishnode02.amadis.com
+ user sjohannsson
+
+Host c3blowfishnode03.amadis.com blowfishnode03 
+ hostname c3blowfishnode03.amadis.com
+ user sjohannsson
+
+Host c3blowfishnode04.amadis.com blowfishnode04 
+ hostname c3blowfishnode04.amadis.com
+ user sjohannsson
+
+Host c3blowfishnode05.amadis.com blowfishnode05 
+ hostname c3blowfishnode05.amadis.com
+ user sjohannsson
+
+# mtlbackendnode
+
+Host c3mtlbackendnode01.amadis.com mtlbackendnode01 
+ hostname c3mtlbackendnode01.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode02.amadis.com mtlbackendnode02 
+ hostname c3mtlbackendnode02.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode03.amadis.com mtlbackendnode03 
+ hostname c3mtlbackendnode03.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode04.amadis.com mtlbackendnode04 
+ hostname c3mtlbackendnode04.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode05.amadis.com mtlbackendnode05 
+ hostname c3mtlbackendnode05.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode06.amadis.com mtlbackendnode06 
+ hostname c3mtlbackendnode06.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode07.amadis.com mtlbackendnode07 
+ hostname c3mtlbackendnode07.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode08.amadis.com mtlbackendnode08 
+ hostname c3mtlbackendnode08.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode09.amadis.com mtlbackendnode09 
+ hostname c3mtlbackendnode09.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendnode10.amadis.com mtlbackendnode10 
+ hostname c3mtlbackendnode10.amadis.com
+ user sjohannsson
+
+# botnetstatsingest
+
+Host c3botnetstatsingest01.amadis.com botnetstatsingest01 
+ hostname c3botnetstatsingest01.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsingest02.amadis.com botnetstatsingest02 
+ hostname c3botnetstatsingest02.amadis.com
+ user sjohannsson
+
+# ber1statsingest
+
+Host production-av-elastic-stats-ingest-ber1-001.ber1.cynet ber1statsingest001 
+ hostname production-av-elastic-stats-ingest-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-ingest-ber1-002.ber1.cynet ber1statsingest002 
+ hostname production-av-elastic-stats-ingest-ber1-002.ber1.cynet
+ user sjohannsson
+
+# statsmaster
+
+Host c3statsmaster01.amadis.com statsmaster01 
+ hostname c3statsmaster01.amadis.com
+ user sjohannsson
+
+Host c3statsmaster02.amadis.com statsmaster02 
+ hostname c3statsmaster02.amadis.com
+ user sjohannsson
+
+Host c3statsmaster03.amadis.com statsmaster03 
+ hostname c3statsmaster03.amadis.com
+ user sjohannsson
+
+# ber1dataclient
+
+Host production-av-elastic-data-client-ber1-001.ber1.cynet ber1dataclient001 
+ hostname production-av-elastic-data-client-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-data-client-ber1-002.ber1.cynet ber1dataclient002 
+ hostname production-av-elastic-data-client-ber1-002.ber1.cynet
+ user sjohannsson
+
+# ber1statsmaster
+
+Host production-av-elastic-stats-master-ber1-001.ber1.cynet ber1statsmaster001 
+ hostname production-av-elastic-stats-master-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-master-ber1-002.ber1.cynet ber1statsmaster002 
+ hostname production-av-elastic-stats-master-ber1-002.ber1.cynet
+ user sjohannsson
+
+# logstoremaster
+
+Host c3logstoremaster01.amadis.com logstoremaster01 
+ hostname c3logstoremaster01.amadis.com
+ user sjohannsson
+
+Host c3logstoremaster02.amadis.com logstoremaster02 
+ hostname c3logstoremaster02.amadis.com
+ user sjohannsson
+
+Host c3logstoremaster03.amadis.com logstoremaster03 
+ hostname c3logstoremaster03.amadis.com
+ user sjohannsson
+
+# statsnode
+
+Host c3statsnode01.amadis.com statsnode01 
+ hostname c3statsnode01.amadis.com
+ user sjohannsson
+
+Host c3statsnode02.amadis.com statsnode02 
+ hostname c3statsnode02.amadis.com
+ user sjohannsson
+
+Host c3statsnode03.amadis.com statsnode03 
+ hostname c3statsnode03.amadis.com
+ user sjohannsson
+
+Host c3statsnode04.amadis.com statsnode04 
+ hostname c3statsnode04.amadis.com
+ user sjohannsson
+
+Host c3statsnode05.amadis.com statsnode05 
+ hostname c3statsnode05.amadis.com
+ user sjohannsson
+
+Host c3statsnode06.amadis.com statsnode06 
+ hostname c3statsnode06.amadis.com
+ user sjohannsson
+
+Host c3statsnode07.amadis.com statsnode07 
+ hostname c3statsnode07.amadis.com
+ user sjohannsson
+
+Host c3statsnode08.amadis.com statsnode08 
+ hostname c3statsnode08.amadis.com
+ user sjohannsson
+
+Host c3statsnode09.amadis.com statsnode09 
+ hostname c3statsnode09.amadis.com
+ user sjohannsson
+
+Host c3statsnode10.amadis.com statsnode10 
+ hostname c3statsnode10.amadis.com
+ user sjohannsson
+
+Host c3statsnode11.amadis.com statsnode11 
+ hostname c3statsnode11.amadis.com
+ user sjohannsson
+
+Host c3statsnode12.amadis.com statsnode12 
+ hostname c3statsnode12.amadis.com
+ user sjohannsson
+
+Host c3statsnode13.amadis.com statsnode13 
+ hostname c3statsnode13.amadis.com
+ user sjohannsson
+
+Host c3statsnode14.amadis.com statsnode14 
+ hostname c3statsnode14.amadis.com
+ user sjohannsson
+
+Host c3statsnode15.amadis.com statsnode15 
+ hostname c3statsnode15.amadis.com
+ user sjohannsson
+
+# nurserystatsingest
+
+Host c3nurserystatsingest01.amadis.com nurserystatsingest01 
+ hostname c3nurserystatsingest01.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsingest02.amadis.com nurserystatsingest02 
+ hostname c3nurserystatsingest02.amadis.com
+ user sjohannsson
+
+# ber1statsnode
+
+Host production-av-elastic-stats-node-ber1-001.ber1.cynet ber1statsnode001 
+ hostname production-av-elastic-stats-node-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-node-ber1-002.ber1.cynet ber1statsnode002 
+ hostname production-av-elastic-stats-node-ber1-002.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-node-ber1-003.ber1.cynet ber1statsnode003 
+ hostname production-av-elastic-stats-node-ber1-003.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-node-ber1-004.ber1.cynet ber1statsnode004 
+ hostname production-av-elastic-stats-node-ber1-004.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-node-ber1-005.ber1.cynet ber1statsnode005 
+ hostname production-av-elastic-stats-node-ber1-005.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-node-ber1-006.ber1.cynet ber1statsnode006 
+ hostname production-av-elastic-stats-node-ber1-006.ber1.cynet
+ user sjohannsson
+
+# logstorenode
+
+Host c3logstorenode01.amadis.com logstorenode01 
+ hostname c3logstorenode01.amadis.com
+ user sjohannsson
+
+Host c3logstorenode02.amadis.com logstorenode02 
+ hostname c3logstorenode02.amadis.com
+ user sjohannsson
+
+Host c3logstorenode03.amadis.com logstorenode03 
+ hostname c3logstorenode03.amadis.com
+ user sjohannsson
+
+Host c3logstorenode04.amadis.com logstorenode04 
+ hostname c3logstorenode04.amadis.com
+ user sjohannsson
+
+Host c3logstorenode05.amadis.com logstorenode05 
+ hostname c3logstorenode05.amadis.com
+ user sjohannsson
+
+Host c3logstorenode06.amadis.com logstorenode06 
+ hostname c3logstorenode06.amadis.com
+ user sjohannsson
+
+Host c3logstorenode07.amadis.com logstorenode07 
+ hostname c3logstorenode07.amadis.com
+ user sjohannsson
+
+Host c3logstorenode08.amadis.com logstorenode08 
+ hostname c3logstorenode08.amadis.com
+ user sjohannsson
+
+Host c3logstorenode09.amadis.com logstorenode09 
+ hostname c3logstorenode09.amadis.com
+ user sjohannsson
+
+Host c3logstorenode10.amadis.com logstorenode10 
+ hostname c3logstorenode10.amadis.com
+ user sjohannsson
+
+# ber1statsclient
+
+Host production-av-elastic-stats-client-ber1-001.ber1.cynet ber1statsclient001 
+ hostname production-av-elastic-stats-client-ber1-001.ber1.cynet
+ user sjohannsson
+
+Host production-av-elastic-stats-client-ber1-002.ber1.cynet ber1statsclient002 
+ hostname production-av-elastic-stats-client-ber1-002.ber1.cynet
+ user sjohannsson
+
+# sandboxstatsnode
+
+Host c3sandboxstatsnode01.amadis.com sandboxstatsnode01 
+ hostname c3sandboxstatsnode01.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsnode02.amadis.com sandboxstatsnode02 
+ hostname c3sandboxstatsnode02.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsnode03.amadis.com sandboxstatsnode03 
+ hostname c3sandboxstatsnode03.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsnode04.amadis.com sandboxstatsnode04 
+ hostname c3sandboxstatsnode04.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsnode05.amadis.com sandboxstatsnode05 
+ hostname c3sandboxstatsnode05.amadis.com
+ user sjohannsson
+
+Host c3sandboxstatsnode06.amadis.com sandboxstatsnode06 
+ hostname c3sandboxstatsnode06.amadis.com
+ user sjohannsson
+
+# botnetstatsclient
+
+Host c3botnetstatsclient01.amadis.com botnetstatsclient01 
+ hostname c3botnetstatsclient01.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsclient02.amadis.com botnetstatsclient02 
+ hostname c3botnetstatsclient02.amadis.com
+ user sjohannsson
+
+# nurserystatsnode
+
+Host c3nurserystatsnode01.amadis.com nurserystatsnode01 
+ hostname c3nurserystatsnode01.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsnode02.amadis.com nurserystatsnode02 
+ hostname c3nurserystatsnode02.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsnode03.amadis.com nurserystatsnode03 
+ hostname c3nurserystatsnode03.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsnode04.amadis.com nurserystatsnode04 
+ hostname c3nurserystatsnode04.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsnode05.amadis.com nurserystatsnode05 
+ hostname c3nurserystatsnode05.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsnode06.amadis.com nurserystatsnode06 
+ hostname c3nurserystatsnode06.amadis.com
+ user sjohannsson
+
+# devmachine
+
+Host c3devsnorri01.amadis.com home dev 
+ hostname c3devsnorri01.amadis.com
+ user sjohannsson
+
+# mtlbackendmaster
+
+Host c3mtlbackendmaster01.amadis.com mtlbackendmaster01 
+ hostname c3mtlbackendmaster01.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendmaster02.amadis.com mtlbackendmaster02 
+ hostname c3mtlbackendmaster02.amadis.com
+ user sjohannsson
+
+Host c3mtlbackendmaster03.amadis.com mtlbackendmaster03 
+ hostname c3mtlbackendmaster03.amadis.com
+ user sjohannsson
+
+# botnetstatsmaster
+
+Host c3botnetstatsmaster01.amadis.com botnetstatsmaster01 
+ hostname c3botnetstatsmaster01.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsmaster02.amadis.com botnetstatsmaster02 
+ hostname c3botnetstatsmaster02.amadis.com
+ user sjohannsson
+
+Host c3botnetstatsmaster03.amadis.com botnetstatsmaster03 
+ hostname c3botnetstatsmaster03.amadis.com
+ user sjohannsson
+
+# nurserystatsmaster
+
+Host c3nurserystatsmaster01.amadis.com nurserystatsmaster01 
+ hostname c3nurserystatsmaster01.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsmaster02.amadis.com nurserystatsmaster02 
+ hostname c3nurserystatsmaster02.amadis.com
+ user sjohannsson
+
+Host c3nurserystatsmaster03.amadis.com nurserystatsmaster03 
+ hostname c3nurserystatsmaster03.amadis.com
+ user sjohannsson
+
+# Custom appended section
